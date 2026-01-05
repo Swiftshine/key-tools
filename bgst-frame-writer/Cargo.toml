@@ -1,0 +1,12 @@
+[package]
+name = "bgst-frame-writer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.53", features = ["derive"] }
+gctex = "0.3.12"
+image = "0.25.9"
+indicatif = { version = "0.18.3", features = ["rayon"] }
+rayon = "1.11.0"
